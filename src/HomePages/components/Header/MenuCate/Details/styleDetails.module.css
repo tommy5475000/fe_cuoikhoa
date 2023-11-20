@@ -1,0 +1,14 @@
+.js1 {
+  padding: 10px;
+  line-height: 20px;
+}
+.js1 .js11 {
+  line-height: 30px;
+}
+
+.js2 {
+  color: black;
+}
+.js2:hover {
+  color: gray;
+}/*# sourceMappingURL=styleDetails.module.css.map */

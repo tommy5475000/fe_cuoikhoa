@@ -1,0 +1,36 @@
+.auth {
+  height: 100vh;
+
+  &_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcNCA0IBwgHBwgIBwoHCAcHBw8ICQcKFREWFhURFR8YHSggGBolGxUfITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NDisZFRkrNzctKysrKysrKzcrKysrKysrKysrKysrKy0rKystKysrKysrKy0rLSsrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAACAQAH/8QAFhABAQEAAAAAAAAAAAAAAAAAAQAR/8QAGAEBAQEBAQAAAAAAAAAAAAAAAgEGBQD/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8AJIoTLjMRFJBQmVOKSChMqUYkFCZUopIKEwqcUkFCRUopMoSKlFJBQmVKKEihMKlFJFCRU4pIoTCpRSQUJlSikgoSKlFJBQmFTihIoTCpRSRQkFSikixIJHFJFCZUooSoSypRyoJFAmFzGYihIoSKlFCZQkVKKSKEgqcIkUJFSikyhIqUUJFCZIooSKEgqcUmUJFSUkUJlSihIoEypRQkFCQVOKE6EipRQkUJFShEigSKlFJlCRU4pIoTKlFJBQkFSikrEqk5USCgSLmsxFJhQJFSikigTKnGJhQJFSikwoEipRSQUJlSikihIqcUmFCQVKKTKEipRSQUJhUopIoEipxQmUJFSikigTJFFJBQJlSjEwoEi8cUkFCZIopIKEipRSYUCQVOKSoSqUcrJFCQXMZeKSKEwqcUkUJEiihMoSKkpIsSKlFCRQkFTikyhIqUUJlCRUopIoSKnFCYUJBUopMKEgqUUJFCQVKKTKEipxQmUJFSihIsSKlFCRQkVKKTKBIKnFJlCRUopLKEpE5UTKBIuYzEUkUJFSikwoSKlFJlAkVKKSKBIqcUJlAkVKKEwoEipRSRQkVKKTCgSJHFJlAkXiikwoSJFGJlCRU4pMKBIqUUmUCRUopIoEipxSZQJFSihMoEipRSRQkVKKSyxLKm5USChIuay8UmFCRUopIsSCpRSQUJhU4pIKEgqUUmFCQVKKEixIqUUkUJBU4pMoSKlFJkSYVKKSKEipxSZQkFSikwoSCpRSRQkFTikyhIKlFJhQkVKKEihMkUYmFCRU4oSsSqTlITKEi5jLxQmUCRU4oSKBIqUUmUJFSikwoSJFFJlAkXjikihIkUUmUCRUooSKEypRQkUCRU4oTKBIqUUJlAkVKKEigSKlFJlAkVOKSCxIqUUkUJlSikihIKnFJlAkVKKSyhKpRyokUCZc1mIpIoTKlFJBQkVKKTCJMqUUkUCZU4pIoEipRSYRJhUopIKEypxSQUJlSjTChIKlFCRQmVKKSKEypxSRQkSKKTCITKlFJBQJlSikihIqcUmRCYVKKSChMKlFJUJVKOVEihMuYzEUJFCRUooTKEiRxQkUJlSihIoTKlFJFCRUooSKBMKnFJBQmVKKSKEgqUUkFCYVKKEixIKnFJFCRUooTKEipKEihMKlFJFCRU4pIoTJFFCRQJl4ooSCgTKlFK2K5U45WSCgSLmsvFJhQkVOKSKBMqUUkFCZUopIoSKlFJBQmFTikigTCpRQkUCRUopIoEyRRSQUCZU4pIKEipRSYRJlSikgoTCpxSRQJlSjEyhIqUUkFAmVKKEgoEwqUUJFCRU4pLKBKpRyomWtcxl4RItaRwyQWtUoYSLWqUIkWtUoYSK2qcIkWtUoQSLWqUMkWtU4YSLWqUMkWtUoQSLWqRkgtapwyRa1ShEgtaRQwkWteIyRa1ThEitpFCJBa1Sj//2Q==");
+    background-repeat: none;
+    background-size: contain;
+    &_form {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      padding: 90px;
+      background-color: white;
+
+      h6 {
+        margin: 0;
+      }
+      .form_input {
+        height: 80px;
+        width: 350px;
+        input {
+          width: 100%;
+        }
+        p {
+          color: red;
+        }
+        .input_gender {
+          width: 20px;
+        }
+      }
+    }
+  }
+}

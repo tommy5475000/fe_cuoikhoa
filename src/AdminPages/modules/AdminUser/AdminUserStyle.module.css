@@ -1,0 +1,40 @@
+.jss1 {
+  margin: 100px 30px 100px 300px;
+}
+.jss1 .jss2 {
+  background-color: cadetblue;
+  color: white;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+.jss1 .jss2:hover {
+  background-color: rgb(76, 135, 137);
+}
+.jss1 .jss3 {
+  background-color: rgb(212, 21, 21);
+  color: white;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+.jss1 .jss3:hover {
+  background-color: rgb(176, 12, 12);
+}
+.jss1 .jss4, .jss1 .jss5 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.jss1 .jss4:hover, .jss1 .jss5:hover {
+  color: blue;
+}
+.jss1 .jss5:hover {
+  color: red;
+}
+.jss1 .jss6 {
+  padding: 10px;
+  margin: 0 5px;
+}/*# sourceMappingURL=AdminUserStyle.module.css.map */

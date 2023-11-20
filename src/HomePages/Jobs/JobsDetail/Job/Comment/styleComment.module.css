@@ -1,0 +1,48 @@
+.js1 {
+  margin: 100px 0;
+}
+
+.js2 {
+  margin: 50px 0;
+}
+.js2 .js21 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.js2 .js22 {
+  padding: 0 15px;
+}
+.js2 .js23 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.js2 .js24 {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.js2 .js25 {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.js3 {
+  width: 90%;
+  height: 100px;
+}
+
+.js4 {
+  padding-top: 50px;
+}
+.js4 .js41 {
+  background-color: blue;
+  color: white;
+  transition: all 0.5s;
+}
+.js4 .js41:hover {
+  background-color: white;
+  color: blue;
+  transition: all 0.5s;
+}/*# sourceMappingURL=styleComment.module.css.map */

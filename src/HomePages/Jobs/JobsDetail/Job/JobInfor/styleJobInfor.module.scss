@@ -1,0 +1,94 @@
+.js1 {
+  margin: 150px;
+  .js11 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.js2 {
+  padding: 10px 0 10px;
+}
+
+.js3 {
+  .js31 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding-right: 10px;
+  }
+  .js32 {
+    display: contents;
+    .js321 {
+      padding-right: 10px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .js322 {
+      font-weight: bold;
+    }
+  }
+}
+
+//IMG
+.js4 {
+  margin: 30px 0 80px;
+  .js41 {
+    width: 100%;
+  }
+}
+
+//about
+.js5 {
+  padding: 15px 0;
+  font-weight: 700;
+  color: #62646a;
+}
+
+//seller
+.js6 {
+  margin: 50px 0;
+  //IMG
+  .js61 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid green;
+  }
+  .js62 {
+    display: contents;
+  }
+  .js63 {
+    padding: 20px 0 10px;
+  }
+  .js64 {
+    padding-right: 10px;
+  }
+  .js65 {
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  //button
+  .js66{
+    padding-top: 10px;
+    .js67{
+      color: gray;
+      border: 1px solid gray;
+      
+      &:hover{
+        color: blue;
+        border: 1px solid blue;
+        transition: all .5s;
+
+      }
+    }
+  }
+}
+.js7{
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+

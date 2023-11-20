@@ -1,0 +1,22 @@
+.js1 {
+  position: relative;
+  transition: opacity 0.3s ease-in-out;
+}
+.js1 .js11 {
+  width: 100%;
+  max-width: 110%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 4px;
+}
+.js1 .js12 {
+  position: absolute;
+  top: 10px;
+  padding-left: 10px;
+  color: #fff;
+}
+
+.js2 {
+  padding: 100px 0 30px 0;
+}/*# sourceMappingURL=stylePopular.module.css.map */

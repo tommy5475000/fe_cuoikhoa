@@ -1,0 +1,60 @@
+.js1 {
+  margin: 150px;
+  .js11 {
+    display: flex;
+    align-items: center;
+    .js111{
+        padding: 20px 0;
+    }
+  }
+  //button
+  .js12 {
+    padding-right: 5px;
+  }
+  .js13 {
+    padding: 0 10px;
+  }
+}
+
+.js2 {
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* Tạo 5 cột bằng cách sử dụng 1fr (chia đều) cho mỗi cột */
+  gap: 20px; /* Đặt khoảng cách giữa các cột */
+  margin: 50px 0;
+  cursor: pointer;
+  //img job
+  .js21{
+    border-radius: 10px;
+  }
+}
+
+.js3 {
+    display: flex;
+    align-items: center;
+  .js31 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 10px 10px 10px 0;
+  }
+}
+
+.js4{
+    display: flex;
+    align-items: center;
+    .js41{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 5px;
+    }
+  }
+  
+  .js5{
+    font-weight: bold;
+    .js51{
+      padding-right: 10px;
+    }
+  }

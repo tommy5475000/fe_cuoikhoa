@@ -1,0 +1,21 @@
+.js1 {
+  display: inline-flex;
+  align-items: center;
+}
+
+.js2 .js21 {
+  background-color: transparent;
+  box-shadow: none;
+}
+.js2 .js22 {
+  background-color: rgb(253, 252, 255);
+  transition: all 0.5s ease-in;
+}
+
+.js3 {
+  opacity: 0;
+}
+
+.js4 {
+  display: none;
+}/*# sourceMappingURL=styleMenuNav.module.css.map */

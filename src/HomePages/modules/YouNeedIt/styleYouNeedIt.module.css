@@ -1,0 +1,33 @@
+.js1 {
+  margin: 100px 0;
+}
+.js1 .js11 {
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.js1 .js11::after {
+  border-bottom: 2px solid gray;
+  content: "";
+  padding: 0 0 8px;
+  position: absolute;
+  width: 48px;
+  transform: translateX(50%);
+  top: 70px;
+  right: 46%;
+  transition: all 0.5s;
+}
+.js1 .js11:hover::after {
+  padding: 0 20px 8px;
+  border-color: green;
+  transition: all 0.5s ease-in-out;
+}
+.js1 .js12 {
+  display: block;
+  height: 48px;
+  margin: 0 auto 15px;
+  width: 48px;
+}
+.js1 .js13 {
+  padding-bottom: 50px;
+}/*# sourceMappingURL=styleYouNeedIt.module.css.map */

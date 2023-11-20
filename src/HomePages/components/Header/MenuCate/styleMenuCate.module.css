@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.js0 {
+  position: relative;
+}
+
+.js1 {
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: relative;
+}
+.js1::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  background: green;
+  transition: all 0.5s;
+}
+.js1:hover::after {
+  width: 100%;
+}
+
+.js2 {
+  opacity: 0;
+  height: 0;
+}
+
+.visible {
+  opacity: 1;
+  height: auto;
+  top: 50px;
+  left: 0;
+  background-color: white; /* Màu nền của bảng */
+  color: black; /* Màu chữ trong bảng */
+  border: 1px solid #e4e5e7;
+  padding: 10px 0;
+  width: 300px;
+  animation: fadeIn 0.5s ease-in-out; /* Sử dụng animation */
+  transform: translateY(0);
+  transition: opacity 0.3s, transform 0.3s;
+  position: absolute;
+}/*# sourceMappingURL=styleMenuCate.module.css.map */

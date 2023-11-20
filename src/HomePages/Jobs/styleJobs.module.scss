@@ -1,0 +1,50 @@
+.js1 {
+  padding-top: 150px;
+
+  .js11 {
+    border-radius: 8px;
+    width: 100%;
+    position: relative;
+    height: 250px;
+  }
+  .js12{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+
+    //P
+    .js121{
+        font-size: 20px;
+        margin-top: 8px;
+    }
+    //Button
+    .js122{
+        color: white;
+        border: 1px solid;
+        margin-top: 30px;
+        padding: 10px;
+        // Icon
+        .js1221{
+            fill: #fff;
+            margin-right: 7px;
+        }
+        }
+    }
+  .js13{
+    padding: 50px 0;
+  }
+  }
+
+
+// height: 240px;
+// background: #003912;
+// font-weight: 700;
+// border-radius: 8px;
+// color: rgba(77,23,39,1);
+// background-image: url(https://cdn.builder.io/api/v1/image/assets%2F1269a57…%2F7f756a6…?width=1336);
+// background-repeat: no-repeat;
+// background-position: center;
+// background-size: cover;

@@ -1,0 +1,69 @@
+.js1 {
+  background-size: auto 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.js2 {
+  position: absolute;
+  bottom: 20%;
+  z-index: 99;
+}
+
+.js3 {
+  font-size: 48px;
+  line-height: 56px;
+  padding-bottom: 24px;
+  color: #fff;
+}
+.js3 .js31 {
+  font-style: italic;
+}
+
+.js32 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 27px;
+  padding-top: 24px;
+}
+
+.js4 {
+  background: #f5f5f5;
+}
+.js4 .js41 {
+  height: 95px;
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.js4 .js41 .js411 {
+  padding-right: 60px;
+}
+
+.js5 {
+  align-items: center;
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  background: hsla(0, 0%, 100%, 0.14);
+  border: 1px solid hsla(0, 0%, 100%, 0.4);
+  border-radius: 1600px;
+  box-shadow: 0 20px 30px 0 rgba(0, 37, 19, 0.2);
+  color: #fff;
+  padding: 15px 30px;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+.js5 .js51 {
+  display: flex;
+  justify-content: space-between;
+}
+.js5 .js52 {
+  padding-left: 20px;
+}/*# sourceMappingURL=styleBanner.module.css.map */

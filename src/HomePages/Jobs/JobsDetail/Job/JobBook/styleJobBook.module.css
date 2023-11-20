@@ -1,0 +1,38 @@
+.js1 {
+  border: 1px solid gray;
+  transform: scaleX(95%);
+}
+
+.js2 {
+  padding: 20px 15px;
+}
+
+.js3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.js4 {
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.js5 {
+  font-size: 16px;
+}
+
+.js6 {
+  text-align: center;
+  padding: 30px 0;
+}
+.js6 .js61 {
+  width: 85%;
+  background-color: black;
+  color: white;
+}
+.js6 .js61:hover {
+  background-color: white;
+  color: black;
+}/*# sourceMappingURL=styleJobBook.module.css.map */

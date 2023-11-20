@@ -1,0 +1,38 @@
+.js1 {
+  margin: 50px 0;
+  .js11 {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(
+      5,
+      1fr
+    ); /* Tạo 5 cột bằng cách sử dụng 1fr (chia đều) cho mỗi cột */
+    gap: 10px; /* Đặt khoảng cách giữa các cột */
+  }
+  //img
+  .js12 {
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #efeff2;
+    border-radius: 12px;
+    color: #404145;
+    padding: 12px;
+    font-weight: bold;
+    box-shadow: 0 0.14px 2.29266px rgba(0, 0, 0, 0.032),
+      0 0.37px 4.42626px rgba(0, 0, 0, 0.048), 0 3px 7px rgba(0, 0, 0, 0.09);
+    cursor: pointer;
+    .js121 {
+      height: 38px;
+      width: 38px;
+      padding-right: 8px;
+    }
+    .js122 {
+      display: flex;
+      align-items: center;
+    }
+    &:hover {
+      color: green;
+    }
+  }
+}
